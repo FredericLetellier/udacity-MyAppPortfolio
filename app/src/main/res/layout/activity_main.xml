@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="217dp"
         android:layout_height="32dp"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/Subtitle"
         android:id="@+id/textView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintLeft_toLeftOf="@+id/activity_main"
@@ -24,63 +24,51 @@
         app:layout_constraintVertical_bias="0.060000002" />
 
     <Button
-        android:text="Popular movies"
-        android:layout_width="217dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:onClick="sendMessage1"
+        android:text="@string/Button_popular_movies"
+        android:id="@+id/button_popular_movies"
+        android:onClick="sendMessage_popular_movies"
         app:layout_constraintLeft_toLeftOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginTop="8dp" />
+        style="@style/button_project" />
 
     <Button
-        android:text="Stock Hawk"
-        android:layout_width="217dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:onClick="sendMessage2"
-        app:layout_constraintLeft_toLeftOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        android:layout_marginTop="8dp" />
+        android:text="@string/Button_stock_hawk"
+        android:id="@+id/button_stock_hawk"
+        android:onClick="sendMessage_stock_hawk"
+        app:layout_constraintLeft_toLeftOf="@+id/button_popular_movies"
+        app:layout_constraintTop_toBottomOf="@+id/button_popular_movies"
+        style="@style/button_project" />
 
     <Button
-        android:text="Build it Bigger"
-        android:layout_width="217dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:onClick="sendMessage3"
-        app:layout_constraintLeft_toLeftOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        android:layout_marginTop="8dp" />
+        android:text="@string/Button_build_it_bigger"
+        android:id="@+id/button_build_it_bigger"
+        android:onClick="sendMessage_build_it_bigger"
+        app:layout_constraintLeft_toLeftOf="@+id/button_stock_hawk"
+        app:layout_constraintTop_toBottomOf="@+id/button_stock_hawk"
+        style="@style/button_project" />
 
     <Button
-        android:text="Make Your App Material"
-        android:layout_width="217dp"
-        android:layout_height="49dp"
-        android:id="@+id/button4"
-        android:onClick="sendMessage4"
-        app:layout_constraintLeft_toLeftOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        android:layout_marginTop="8dp" />
+        android:text="@string/Button_make_your_app_material"
+        android:id="@+id/button_make_your_app_material"
+        android:onClick="sendMessage_make_your_app_material"
+        app:layout_constraintLeft_toLeftOf="@+id/button_build_it_bigger"
+        app:layout_constraintTop_toBottomOf="@+id/button_build_it_bigger"
+        style="@style/button_project" />
 
     <Button
-        android:text="Go Ubiquitous"
-        android:layout_width="218dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button5"
-        android:onClick="sendMessage5"
-        app:layout_constraintLeft_toLeftOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        android:layout_marginTop="8dp" />
+        android:text="@string/Button_go_ubiquitous"
+        android:id="@+id/button_go_ubiquitous"
+        android:onClick="sendMessage_go_ubiquitous"
+        app:layout_constraintLeft_toLeftOf="@+id/button_make_your_app_material"
+        app:layout_constraintTop_toBottomOf="@+id/button_make_your_app_material"
+        style="@style/button_project" />
 
     <Button
-        android:text="Capstone"
-        android:layout_width="217dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button6"
-        android:onClick="sendMessage6"
-        app:layout_constraintLeft_toLeftOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        android:layout_marginTop="8dp" />
+        android:text="@string/Button_capstone"
+        android:id="@+id/button_capstone"
+        android:onClick="sendMessage_capstone"
+        app:layout_constraintLeft_toLeftOf="@+id/button_go_ubiquitous"
+        app:layout_constraintTop_toBottomOf="@+id/button_go_ubiquitous"
+        style="@style/button_project" />
 
 </android.support.constraint.ConstraintLayout>
