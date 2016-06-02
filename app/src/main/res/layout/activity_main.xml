@@ -27,71 +27,60 @@
         android:text="Popular movies"
         android:layout_width="217dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button7"
+        android:id="@+id/button1"
+        android:onClick="sendMessage1"
         app:layout_constraintLeft_toLeftOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.52" />
+        android:layout_marginTop="8dp" />
 
     <Button
         android:text="Stock Hawk"
         android:layout_width="217dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button8"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView" />
+        android:id="@+id/button2"
+        android:onClick="sendMessage2"
+        app:layout_constraintLeft_toLeftOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:text="Build it Bigger"
         android:layout_width="217dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button9"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/button8"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.47" />
+        android:id="@+id/button3"
+        android:onClick="sendMessage3"
+        app:layout_constraintLeft_toLeftOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:text="Make Your App Material"
         android:layout_width="217dp"
         android:layout_height="49dp"
-        android:id="@+id/button11"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.0" />
+        android:id="@+id/button4"
+        android:onClick="sendMessage4"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:text="Go Ubiquitous"
         android:layout_width="218dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button12"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/button11"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView" />
+        android:id="@+id/button5"
+        android:onClick="sendMessage5"
+        app:layout_constraintLeft_toLeftOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        android:layout_marginTop="8dp" />
 
     <Button
-        android:text="Capstone "
+        android:text="Capstone"
         android:layout_width="217dp"
         android:layout_height="wrap_content"
-        android:id="@+id/button13"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/button12"
-        android:layout_marginTop="8dp"
-        app:layout_constraintRight_toRightOf="@+id/textView" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="534dp"
-        android:id="@+id/button" />
+        android:id="@+id/button6"
+        android:onClick="sendMessage6"
+        app:layout_constraintLeft_toLeftOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        android:layout_marginTop="8dp" />
 
 </android.support.constraint.ConstraintLayout>
