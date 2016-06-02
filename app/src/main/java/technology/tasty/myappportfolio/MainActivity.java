@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage1(View view) {
+    public void sendMessage_popular_movies(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Popular movies app!";
+        CharSequence text = getString(R.string.message_popular_movies);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage2(View view) {
+    public void sendMessage_stock_hawk(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Stock Hawk app!";
+        CharSequence text = getString(R.string.message_stock_hawk);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage3(View view) {
+    public void sendMessage_build_it_bigger(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Build it Bigger app!";
+        CharSequence text = getString(R.string.message_build_it_bigger);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage4(View view) {
+    public void sendMessage_make_your_app_material(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Make Your App Material app!";
+        CharSequence text = getString(R.string.message_make_your_app_material);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage5(View view) {
+    public void sendMessage_go_ubiquitous(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Go Ubiquitous app!";
+        CharSequence text = getString(R.string.message_go_ubiquitous);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage6(View view) {
+    public void sendMessage_capstone(View view) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my Capstone app!";
+        CharSequence text = getString(R.string.message_capstone);
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
